@@ -35,9 +35,9 @@ pages = {
         st.Page("home_page.py", title="ABOUT accounts")
     ],
     "GCSE Challenges": [
-        st.Page("pages\A_10_Number_Names.py", title="Number_Names"),
-        st.Page("pages\A_13_Caesar_Cipher.py", title="Caesar_Cipher"),
-        st.Page("pages\A_16_Kaprekar_Number.py", title="Kaprekar_Number"),
+        st.Page("pages/A_10_Number_Names.py", title="Number_Names"),
+        st.Page("pages/A_13_Caesar_Cipher.py", title="Caesar_Cipher"),
+        st.Page("pages/A_16_Kaprekar_Number.py", title="Kaprekar_Number"),
     ],
 }
 

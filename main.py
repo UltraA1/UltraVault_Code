@@ -19,7 +19,7 @@ st.markdown("""
                 }
 
 
-        </style>,<h1 style='display:inline-block;text-align: center; background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);-webkit-background-clip: text;color: transparent; '>HOME PAGE</h1>
+        </style>,
         """, unsafe_allow_html=True)
 
 #st.sidebar.page_link("main.py", label="ABOUT accounts")
@@ -32,7 +32,7 @@ st.markdown("""
 
 pages = {
     "Your account": [
-        st.Page("main.py", title="ABOUT accounts")
+        st.Page("home_page.py", title="ABOUT accounts")
     ],
     "GCSE Challenges": [
         st.Page("pages\A_10_Number_Names.py", title="Number_Names"),
